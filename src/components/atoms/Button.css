@@ -1,0 +1,60 @@
+/* ===== Base ===== */
+.btn {
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+/* ===== Primary Add Button ===== */
+.btn-default {
+  background-color: #5b5ce2;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+
+.btn-default:hover {
+  background-color: #4a4bd4;
+}
+
+/* ===== Filter Buttons ===== */
+.btn-rounded {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background-color: #f1f2f6;
+  color: #6b7280;
+}
+
+.btn-rounded.btn-active {
+  background-color: #5b5ce2;
+  color: white;
+}
+
+/* ===== Icon Button (Delete) ===== */
+.btn-icon {
+  background: transparent;
+  padding: 6px;
+  color: #9ca3af;
+}
+
+.btn-icon:hover {
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  color: #ef4444;
+}
+
+/* ===== Text Button (Clear Completed) ===== */
+.btn-text {
+  background: transparent;
+  color: #6b7280;
+  padding: 4px;
+}
+
+.btn-text:hover {
+  color: #111827;
+}
