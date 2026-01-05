@@ -1,0 +1,41 @@
+/* ===== Base ===== */
+.text {
+  margin: 0;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+/* ===== Title ===== */
+.text-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* ===== Subtitle ===== */
+.text-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #374151;
+}
+
+/* ===== Normal ===== */
+.text-normal {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4b5563;
+}
+
+/* ===== Bold ===== */
+.text-bold {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* ===== Light ===== */
+.text-light {
+  font-size: 14px;
+  font-weight: 300;
+  color: #9ca3af;
+}
