@@ -1,10 +1,11 @@
 /* ===== Base ===== */
 .btn {
-  border: none;
+  border: 1px solid #c9c7c7;
   cursor: pointer;
   font-size: 14px;
   font-family: inherit;
   display: inline-flex;
+  background-color: white;
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
@@ -12,9 +13,9 @@
 
 /* ===== Primary Add Button ===== */
 .btn-default {
-  background-color: #5b5ce2;
+  background-color: #4f46e5;
   color: white;
-  padding: 10px 16px;
+  padding: 9px 20px;
   border-radius: 10px;
 }
 
@@ -26,12 +27,13 @@
 .btn-rounded {
   padding: 6px 14px;
   border-radius: 999px;
-  background-color: #f1f2f6;
+  background-color: #ffff;
   color: #6b7280;
 }
 
 .btn-rounded.btn-active {
-  background-color: #5b5ce2;
+  background-color: #4f46e5;
+  padding: 6px 18px;
   color: white;
 }
 

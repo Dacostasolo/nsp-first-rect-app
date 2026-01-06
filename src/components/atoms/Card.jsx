@@ -6,10 +6,10 @@ export function Card({ children, className = "" }) {
         border
          border-slate-100 
         bg-white/40 
-        rounded-2xl 
+        rounded-sm 
         p-4 
         w-60          
-        hover:bg-white 
+        hover:bg-blue-300 
         ${className}
       `}
     >

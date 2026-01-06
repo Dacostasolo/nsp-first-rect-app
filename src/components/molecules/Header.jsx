@@ -3,22 +3,32 @@ import { Button } from "../atoms/Button";
 import { ProgressIndicator } from "./ProgressIndicator";
 
 export function Header() {
-
-  function formatDate(date){
-    return new Date().toLocalDateString('en-UK', {
-      weekday: 'long',
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
+  function formatDate() {
+    return new Date().toLocaleDateString("en-GB", {
+      weekday: "long",
+      year: "numeric",
+      day: "numeric",
+      month: "long",
     });
   }
+
   return (
-    <div className='flex justify-between items-center p-4 border-b'>
-        <div className='flex flex-col'>
+    <>
+      <div className="flex justify-between p-2">
+        <div className="flex flex-col">
           <Text variant="title">My Tasks</Text>
-          <Text variant="subtitle">{formatDate()}</Text>
+          <span className="text-slate-500 text-lg">
+
+            {formatDate()}
+          </span>
+          {/* <Text variant="subtitle" className="text-slate-500"> */}
+          {/* </Text> */}
         </div>
-        <ProgressIndicator completed={0} total={0} />
-    </div>
+        <div>
+          {" "}
+          <ProgressIndicator completed={0} />
+        </div>
+      </div>
+    </>
   );
 }
