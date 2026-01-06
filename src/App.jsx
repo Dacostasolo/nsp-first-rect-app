@@ -32,6 +32,7 @@ function App() {
             Completed
           </Button>
         </div>
+        <Card/>
       </div>
     </div>
   );
