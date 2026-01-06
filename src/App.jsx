@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Button } from "./components/atoms/Button";
 import { Checkbox } from "./components/atoms/Checkbox";
 import { Trash2 } from "lucide-react";
+import { Card } from "./components/atoms/Card";
+import { Input } from "./components/atoms/Input";
 import { ProgressIndicator } from "./components/molecules/ProgressIndicator";
 
 function App() {
@@ -21,7 +23,6 @@ function App() {
         <Button variant="icon" ariaLabel="Delete task">
           <Trash2 size={16} />
         </Button>
-
         <div className="flex gap-2 bg-white p-3 rounded-lg shadow">
           <Button variant="rounded" ariaLabel="All tasks" active>
             All
@@ -33,7 +34,9 @@ function App() {
             Completed
           </Button>
         </div>
+        <Card/>
       </div>
+      <Input />
     </div>
   );
 }
