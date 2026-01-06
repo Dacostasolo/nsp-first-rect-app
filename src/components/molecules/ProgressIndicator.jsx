@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 
 export function ProgressIndicator({ completed, total }) {
   const percentage = total === 0 ? 0 : Math.round((completed / total) * 100);
