@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "./components/atoms/Button";
 import { Checkbox } from "./components/atoms/Checkbox";
 import { Trash2 } from "lucide-react";
+import{ Card } from "./components/atoms/Card";
 
 function App() {
   const [hide, setHide] = useState(false);
@@ -31,7 +32,10 @@ function App() {
           <Button variant="rounded" ariaLabel="Completed tasks">
             Completed
           </Button>
+          
+
         </div>
+        <Card />
       </div>
     </div>
   );
